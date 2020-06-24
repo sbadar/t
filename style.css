@@ -1,0 +1,207 @@
+.paragraph {
+	font-size: 28px;
+	line-height: 34px;
+	font-family: 'Cabin', sans-serif
+}
+.h1 {
+	font-size:50px;
+	line-height:62px;
+font-family: 'Bungee Shade', cursive;
+}
+.h2 {
+	font-size:50px;
+	line-height:62px;
+font-family: 'Montserrat', sans-serif;
+}
+
+.h3 {
+	font-size:50px;
+	line-height:62px;
+font-family: 'Montserrat', sans-serif;
+}
+
+.h4 {
+	font-size:50px;
+	line-height:62px;
+font-family: 'Montserrat', sans-serif;
+}
+
+.h5 {
+	font-size:50px;
+	line-height:62px;
+font-family: 'Montserrat', sans-serif;
+}
+
+.h6 {
+	font-size:50px;
+	line-height:62px;
+font-family: 'Montserrat', sans-serif;
+}
+
+
+body{
+    background-image: url('https://media0.giphy.com/media/B3DOa2PdxxEtO/source.gif');
+    background-size: cover;
+}
+
+.box {
+    cursor: pointer;
+    height: 500px;
+     position: relative;
+     overflow: hidden;
+     width: 900px;
+   }
+   .box img {
+     position: absolute;
+     left: 0;
+    -webkit-transition: all 300ms ease-out;
+    -moz-transition: all 300ms ease-out;
+    -o-transition: all 300ms ease-out;
+    -ms-transition: all 300ms ease-out;
+     transition: all 300ms ease-out;
+   }
+   
+   .box .overbox {
+     background-color: #304562;
+     position: absolute;
+     top: 0;
+     left: 0;
+     color: #fff;
+     z-index: 100;
+     -webkit-transition: all 300ms ease-out;
+     -moz-transition: all 300ms ease-out;
+     -o-transition: all 300ms ease-out;
+     -ms-transition: all 300ms ease-out;
+     transition: all 300ms ease-out;
+     opacity: 0;
+     width: 360px;
+     height: 240px;
+     padding: 130px 20px;
+   }
+   
+   .box:hover .overbox { opacity: 1; }
+   .box .overtext {
+     -webkit-transition: all 300ms ease-out;
+     -moz-transition: all 300ms ease-out;
+     -o-transition: all 300ms ease-out;
+     -ms-transition: all 300ms ease-out;
+     transition: all 300ms ease-out;
+     transform: translateY(40px);
+     -webkit-transform: translateY(40px);
+   }
+   .box .title {
+     font-size: 2.5em;
+     text-transform: uppercase;
+     opacity: 0;
+     transition-delay: 0.1s;
+     transition-duration: 0.2s;
+   }
+   .box:hover .title,
+   .box:focus .title {
+     opacity: 1;
+     transform: translateY(0px);
+     -webkit-transform: translateY(0px);
+   }
+   
+   .box .tagline {
+     font-size: 0.8em;
+     opacity: 0;
+     transition-delay: 0.2s;
+     transition-duration: 0.2s;
+   }
+   .box:hover .tagline,
+   .box:focus .tagline {
+     opacity: 1;
+     transform: translateX(0px);
+     -webkit-transform: translateX(0px);
+   }
+
+   .container {
+    position:relative;
+    padding:0;
+    width:400px;
+    display:block;
+    cursor:pointer;
+    overflow:hidden;
+}
+.content {
+    opacity:0;
+    font:20px Calibri;
+    position:absolute;
+    top:0;
+    left:0;
+    color:#000;
+    background-color:rgba(255,255,255,0.5);
+    width:301px;
+    height:300px;
+    -webkit-transition: all 300ms ease-out;
+    -moz-transition: all 300ms ease-out;
+    -o-transition: all 300ms ease-out;
+    -ms-transition: all 300ms ease-out;
+    transition: all 300ms ease-out;
+    text-align:center;
+}
+.container .content:hover { opacity:1; }
+
+.container .content .description {
+    height:0;
+    opacity:1;
+    transition-delay: 0.1s;
+    transition-duration: 0.4s;
+}
+.container .content:hover .description {
+    opacity:1;
+    transform: translateY(260px);
+    -webkit-transform: translateY(260px);
+}
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+body {
+	background-color: #111;
+}
+
+.title {
+	font-family: "Montserrat";
+	text-align: left;
+	color: #FFF;
+	display: flex;
+	flex-direction: column;
+	align-items: left;
+	justify-content: center;
+	height: 20vh;
+	letter-spacing: 1px;
+}
+
+h1 {
+	background-image: url(https://i.pinimg.com/originals/bd/35/7e/bd357e3e61f3b424f237d332462193a1.gif);
+	background-size: cover;
+	color: transparent;
+	-moz-background-clip: text;
+	-webkit-background-clip: text;
+	text-transform: uppercase;
+	font-size: 120px;
+	line-height: .75;
+	margin: 10px 0;
+}
+/* styling my button */
+
+.white-mode {
+	text-decoration: none;
+	padding: 7px 10px;
+	background-color: #122;
+	border-radius: 3px;
+	color: #FFF;
+	transition: .35s ease-in-out;
+	position: absolute;
+	left: 15px;
+	bottom: 15px;
+	font-family: "Montserrat";
+}
+
+.white-mode:hover {
+	background-color: #FFF;
+	color: #122;
+}
+
